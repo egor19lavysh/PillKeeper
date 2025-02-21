@@ -4,7 +4,6 @@ from datetime import date
 
 class PillCreateSchema(BaseModel):
     name: str
-    description: str
     symptoms: list[int]
     expiration_date: date
     side_effects: list[int]
