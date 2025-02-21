@@ -1,6 +1,6 @@
 from sqlalchemy.orm import Mapped, mapped_column, relationship
 from sqlalchemy import Table, ForeignKey, Column
-from base import Base
+from .base import Base
 from datetime import date
 
 pill_symptom_association = Table(
