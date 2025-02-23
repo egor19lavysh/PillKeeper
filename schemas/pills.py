@@ -7,7 +7,7 @@ class PillCreateSchema(BaseModel):
     symptoms: list[int]
     expiration_date: date
     side_effects: list[int]
-    amount: int = 0
+    quantity: int = 0
 
 
 class PillSchema(PillCreateSchema):
