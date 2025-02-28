@@ -4,7 +4,7 @@ from pydantic_settings import BaseSettings
 class Settings(BaseSettings):
     DB_DIALECT: str = "postgresql"
     DB_DRIVER: str = "psycopg2"
-    DB_NAME: str = "pill_keeper_local_db"
+    DB_NAME: str = "tabletka_local_db"
     DB_USER: str = "postgres"
     DB_PASSWORD: str = "password"
     DB_HOST: str = "127.0.0.1"
